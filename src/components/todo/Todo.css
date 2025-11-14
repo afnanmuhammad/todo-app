@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 36px;
+    color: #384dd8;
+}
+.date-time-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+
+}
+#date{
+    color: #df7f2c;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    
+}
+#date::-webkit-calendar-picker-indicator {
+    opacity: 0;
+    cursor: pointer;
+}
+#time{
+    color: #df7f2c;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+}
+#time::-webkit-calendar-picker-indicator {
+    opacity: 0;
+    cursor: pointer;
+}
